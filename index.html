@@ -52,7 +52,7 @@
             <div class="col">
                 <section class="container">
                     <div>
-                        <img src="photo.jpg" alt="Gevorkian George" height="540" width="360">
+                        <img onclick="imageChange()" src="img/1.jpg" alt="Gevorkian George" class="images" height="540" width="360">
                     </div>
                 </section>
             </div>
@@ -97,13 +97,21 @@
         <p align="right">Directed by me</p>
     </div>
     <dialog hidden="true" class="contacts">
-        <p>Contacts</p>
-        <a href="https://t.me/Osawerengeka">
-            <img src="telegram.jpg" height="38" width="38">
-        </a>
-        <a href="https://github.com/Osawerengeka">
-            <img src="github.png" height="40" width="40">
-        </a>
+        <div>
+        <p>My Contacts:</p>
+        <ul>
+            <li class="li_no_markers">
+                <a href="https://t.me/Osawerengeka">
+                    <img src="telegram.jpg" height="38" width="38">
+                </a>
+            </li>
+            <li class="li_no_markers">
+                <a href="https://github.com/Osawerengeka">
+                    <img src="github.png" height="40" width="40">
+                </a>
+            </li>
+        </ul>
+        </div>
         <button class="buttonClose" onclick="contactsClose()">close</button>
     </dialog>
 </footer>
