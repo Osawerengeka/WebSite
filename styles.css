@@ -104,3 +104,13 @@ dialog{
     top: 0%;
     padding: 15px;
 }
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 5px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */
+}
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="stylesForChat.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@400&family=Texturina&display=swap" rel="stylesheet">
+    <title >M33041 Gevorkian George</title>
+    <script src="scriptsForChat.js"></script>
+</head>
+<body>
+<main>
+    <div class='chat'>
+        <div class='chat-messages'>
+            <div class='chat-messages__content' id='messages'>
+            </div>
+        </div>
+    </div>
+    <div align="center" >
+        <form method='post' id='chat-form' onsubmit="return false">
+            <input type='text' id='message-text' class='chat-form__input' placeholder='Введите сообщение'>
+            <input onclick="send()" type='submit' class='chat-form__submit' value='=>'>
+        </form>
+    </div>
+</main>
+
+<!--<footer>-->
+<!--    <form onsubmit="return false">-->
+<!--        <p>-->
+<!--            Комментарий<Br><textarea name="comment" cols="40" rows="3"></textarea>-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <input type="submit" value="Отправить">-->
+<!--            <input type="reset" value="Очистить">-->
+<!--        </p>-->
+<!--    </form>-->
+<!--</footer>-->
+</body>
+</html>
