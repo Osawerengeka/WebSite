@@ -53,7 +53,7 @@ section {
 }
 .li_no_markers {
     list-style-type: none;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
 }
 ul {
     padding: 15px;
@@ -102,7 +102,7 @@ dialog{
     border-radius: 20px;
     z-index: 1;
     top: 0%;
-    padding: 15px;
+    padding: 10px;
 }
 .sign {
     float: right; /* Выравнивание по правому краю */
@@ -114,3 +114,4 @@ dialog{
 .sign figcaption {
     margin: 0 auto 5px; /* Отступы вокруг абзаца */
 }
+

@@ -24,7 +24,6 @@
             <section class="section-flex">
             <div class="col">
                 <section class="container">
-                    <div><a href="chat.html"><h2>chat</h2></a></div>
                     <div class="section-inner">
                         <h2>About Me</h2>
                         <div>
@@ -99,21 +98,24 @@
     </div>
     <dialog hidden="true" class="contacts">
         <div>
-        <p>My Contacts:</p>
+            <ul class = "panel">
+                <li><p>My Contacts:</p></li>
+                <li><button class="buttonClose" onclick="contactsClose()">close</button></li>
+            </ul>
         <ul>
-            <li class="li_no_markers">
+            <li class="li_no_markers">my Telegram
                 <a href="https://t.me/Osawerengeka">
                     <img src="telegram.jpg" height="38" width="38">
                 </a>
             </li>
-            <li class="li_no_markers">
+            <li class="li_no_markers">my Github
                 <a href="https://github.com/Osawerengeka">
                     <img src="github.png" height="40" width="40">
                 </a>
             </li>
         </ul>
         </div>
-        <button class="buttonClose" onclick="contactsClose()">close</button>
+
     </dialog>
 </footer>
 </body>
