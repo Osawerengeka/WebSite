@@ -35,6 +35,7 @@ function send() {
         button.setAttribute('onclick',"del(this)");
         button.innerHTML = "X";
         let p = document.createElement('p');
+        p.setAttribute('class','p');
         p.innerText = var1;
         div.append(button);
         div.append(p);
@@ -56,6 +57,8 @@ function send() {
         button2.innerHTML = "X";
         let p = document.createElement('p');
         let p2 = document.createElement('p');
+        p.setAttribute('class','p');
+        p2.setAttribute('class','p');
         p.innerText = var1;
         p2.innerText = var2;
         div.append(button);
