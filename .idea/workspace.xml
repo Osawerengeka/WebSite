@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e41f6e6-e82c-4b3c-946d-38fa8435e071" name="Default Changelist" comment="7 lab done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -85,6 +88,8 @@
       <workItem from="1610121555774" duration="1060000" />
       <workItem from="1610211795293" duration="12159000" />
       <workItem from="1610270777358" duration="152000" />
+      <workItem from="1613769969865" duration="54000" />
+      <workItem from="1613770105030" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="6 lab">
       <created>1609700833416</created>
@@ -107,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610225981331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <created>1613770012866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613770012866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +141,8 @@
     <MESSAGE value="6 lab" />
     <MESSAGE value="7 lab" />
     <MESSAGE value="7 lab done" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 lab done" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="219" key="#Web_Browsers" timestamp="1609687613259">
@@ -204,10 +217,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1419" height="216" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1610225998334" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1610225986554">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613770014506">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1610225986554" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1613770014506" />
     <state x="537" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610225964059">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
